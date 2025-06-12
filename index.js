@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send('Server is running');
 });
 
-app.listen(port, () => {
+app.listen(3000, '0.0.0.0', () => {
   console.log(`App listening at http://localhost:${port}`);
 });
 
